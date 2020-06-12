@@ -19,6 +19,11 @@ a {
   margin: 0 auto;
 }
 
+/* floatの解除、親要素が高さを持つ設定 */
+.clear {
+  clear: left;
+}
+
 /* トップ */
 .top-wrapper {
   padding: 180px 0 100px 0;
@@ -123,6 +128,7 @@ header {
   display: none;
 }
 
+/* レッスン一覧 */
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
