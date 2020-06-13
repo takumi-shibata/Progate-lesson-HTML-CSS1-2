@@ -200,3 +200,7 @@ footer {
   padding-top: 21px;
   display: none;
 }
+
+.clear {
+  clear: left;
+}
