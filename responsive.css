@@ -11,6 +11,10 @@
     width: 50%;
     margin-bottom: 50px;
   }
+
+  footer {
+    text-align: center;
+  }
 }
 
 /* モバイル向けレイアウト */
@@ -35,7 +39,7 @@
     font-size: 14px;
   }
   
-  .btn-wrapper .btn {
+  .btn {
     width: 100%;
   }
   
