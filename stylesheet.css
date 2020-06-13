@@ -1,4 +1,5 @@
-/* paddingやborderを追加指定してもレイアウトが崩れない(marginは適用されない) */
+/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
 * {
   box-sizing: border-box;
 }
@@ -19,12 +20,6 @@ a {
   margin: 0 auto;
 }
 
-/* floatの解除、親要素が高さを持つ設定 */
-.clear {
-  clear: left;
-}
-
-/* トップ */
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
@@ -82,7 +77,6 @@ a {
   margin-right: 5px;
 }
 
-/* ヘッダー */
 header {
   height: 65px;
   width: 100%;
@@ -119,16 +113,6 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* ヘッダーメニューアイコン(スマートフォン表示時のみ) */
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding-top: 21px;
-  display: none;
-}
-
-/* レッスン一覧 */
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -171,7 +155,6 @@ header {
   color: #b3aeb5;
 }
 
-/* メッセージ */
 .heading h3 {
   font-weight: normal;
 }
@@ -195,7 +178,6 @@ header {
   box-shadow: none;
 }
 
-/* フッター */
 footer img {
   width: 125px;
 }
@@ -209,3 +191,6 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+/* -------------------- CSSはここから追加していきましょう！ -------------------- */
+
