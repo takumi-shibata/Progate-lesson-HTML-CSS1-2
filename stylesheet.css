@@ -193,14 +193,4 @@ footer {
 }
 
 /* -------------------- CSSはここから追加していきましょう！ -------------------- */
-.header-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding-top: 21px;
-  display: none;
-}
 
-.clear {
-  clear: left;
-}
