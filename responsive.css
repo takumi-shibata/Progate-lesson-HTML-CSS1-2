@@ -5,5 +5,12 @@
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
-
+  /* ヘッダー */
+  .header-right {
+    display: none;
+  }
+  
+  .header-icon {
+    display: block;
+  }
 }

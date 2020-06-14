@@ -1,5 +1,4 @@
-/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
-
+/* paddingやborderを追加指定してもレイアウトが崩れない設定(marginは適用されない) */
 * {
   box-sizing: border-box;
 }
@@ -77,6 +76,7 @@ a {
   margin-right: 5px;
 }
 
+/* ヘッダー */
 header {
   height: 65px;
   width: 100%;
@@ -111,6 +111,15 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* メニューアイコン(スマートフォン表示時のみ) */
+.header-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding-top: 21px;
+  display: none;
 }
 
 .lesson-wrapper {
@@ -191,6 +200,3 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-
-/* -------------------- CSSはここから追加していきましょう！ -------------------- */
-
