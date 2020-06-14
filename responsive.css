@@ -14,6 +14,11 @@
   .heading h2 {
     font-size: 20px;
   }
+  
+  /* フッター */
+  footer {
+    text-align: center;
+  }
 }
 
 /* モバイル向けレイアウト */
@@ -31,7 +36,7 @@
     font-size: 14px;
   }
   
-  .btn-wrapper .btn {
+  .btn {
     width: 100%;
   }
   

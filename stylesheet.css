@@ -171,6 +171,7 @@ header {
   clear: left;
 }
 
+/* メッセージ */
 .heading h3 {
   font-weight: normal;
 }
@@ -194,6 +195,7 @@ header {
   box-shadow: none;
 }
 
+/* フッター */
 footer img {
   width: 125px;
 }
