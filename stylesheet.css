@@ -123,6 +123,7 @@ header {
   display: none;
 }
 
+/* レッスン一覧 */
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -163,6 +164,11 @@ header {
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
+}
+
+/* floatの解除、親要素が高さを持つ設定 */
+.clear {
+  clear: left;
 }
 
 .heading h3 {

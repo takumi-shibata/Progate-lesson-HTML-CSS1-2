@@ -4,6 +4,16 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
+  
+  /*　レッスン一覧 */
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
 /* モバイル向けレイアウト */
@@ -36,5 +46,10 @@
   
   .header-icon {
     display: block;
+  }
+  
+  /* レッスン一覧 */
+  .lesson {
+    width: 100%;
   }
 }
